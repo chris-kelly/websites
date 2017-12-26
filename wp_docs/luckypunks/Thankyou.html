@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lucky Punks</title>
+	<link href="Images/favicon (1).ico" rel="icon">
+	<link href="Style.css" rel="stylesheet" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<script type="text/javascript">
+	function validateForm() {
+    var x = document.forms["ContactForm"]["Name"].value;
+     var atpos = x.indexOf("@");
+     var dotpos = x.lastIndexOf(".");
+     if (atpos< 1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+         alert("Please enter a valid e-mail address");
+         return false;    }
+	}
+</script>
+<script>
+function myFunction() {
+    var x = document.getElementById("soundcloudplayer");
+    if (x.className != "no_show")
+       {x.className = "no_show"}
+    else {x.className = "show"} }
+</script>
+<div id="container1" style="margin:auto 0 auto 0; vertical-align:middle; opacity:0.15;">
+	<div id="bigimage">
+		<img alt="Image of the band" src="Images/MainImage2.jpg" width="100%" />
+		<div style="position:absolute; left:3%; top:20%; width:90%">
+			<h1>LUCKY<br>&nbsp;PUNKS&nbsp;&nbsp;&nbsp;
+				<span style="font-size:13vh">coming soon
+				</span>
+			</h1>
+		</div>
+	</div>
+	<div id="comingsoon" style="position:absolute; right:0%; top:-1%; width:15%; padding:0 0 0 2%">
+		<p>join us.</p>
+		<form id="ContactForm" name="ContactForm" method="post" action="sendresults.php" onsubmit="return validateForm()" style="position:absolute; top:10%; width:77%">
+			<input name="Name" id="Name" value=" enter email address." class="formtext" id-="email_field" type="text" onfocus="if (this.value==' enter email address.') this.value='';" onblur="if (this.value=='') this.value=' enter email address.';" style="width:100%; font-size:2.5vh; border:thin white solid; margin:0 auto; font-family: 'Yanone Kaffeesatz'">
+			<p style="display:none">Your Message <br><textarea id="Message" cols="40" rows="5" name="Message">No message</textarea></p>
+			<input id="a" name="a" type="submit" value="sign me up" class="submit_button" style="font-size:2.5vh; line-height:1.15em; font-family: 'Yanone Kaffeesatz'; background-color:rgba(0,0,0,0); border-style:none; color:white; text-align:left">
+		</form>
+	</div>
+	<div id="logos" style="position:absolute; right:2%; bottom:7%; width:2%; font-size:2vh; padding:1%">
+		<a href="https://www.facebook.com/LUCKY-PUNKS-787363011393249/?fref=ts" target="_blank">
+			<img alt="" src="Images/Logos/facebook.png" width="100%">
+		</a><br><br>
+		<a href="https://www.twitter.com/luckypunksband" target="_blank">
+			<img alt="" src="Images/Logos/twitter.png" width="100%">
+		</a><br><br>
+		<a href="https://www.instagram.com/luckypunksband" target="_blank">
+			<img alt="" src="Images/Logos/Instagram.png" width="100%">
+		</a><br><br>
+		<a href="https://www.soundcloud.com/luckypunksband" target="_blank">
+			<img alt="" src="Images/Logos/Soundcloud.png" width="100%"></a>
+	</div>
+	<div onclick="myFunction()" style="width:5%; color:white; margin:0% 92% 0 3%; position:absolute; top:-1%; left: 0; font-size:5vh; cursor:pointer; font-family: 'Yanone Kaffeesatz';" class="listen"><p>listen.</p></div>
+	<div id="soundcloudplayer" class="no_show" style="width:35%; background-color:rgba(255,255,255,1); margin:6% 62% 0 3%; position:absolute; top:0; left: 0">
+		<iframe width="100%" height="100%" style="margin:0; padding:0; font-size:0; opacity:1" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/100168507&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false" target="_blank">
+		</iframe>
+	</div>
+</div>
+<div style="color:white; font-family: 'Amatic SC', cursive; font-size:15vh; position:absolute; left:20%; top:35%; width:60%; height:20% margin:0 auto 0 auto; text-align:center">Thank you! You will be added to our mailing list.<br><a href="index.html" style="color:white; font-size:6vh; font-family: 'Yanone Kaffeesatz'; text-decoration:none" class="return">Click here to return</a></div>
+</body>
+
+</html>

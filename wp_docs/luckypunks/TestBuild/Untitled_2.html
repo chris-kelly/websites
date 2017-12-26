@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Untitled 1</title>
+<style>
+.show {width:60vw; opacity:1; transition: width 1s ease-in-out; -webkit-transition: width 1s ease-in-out; font-size:10vw;}	
+.no_show {width:0vw; opacity:0; transition: width 1s ease-in-out, display ; -webkit-transition: width 1s ease-in-out;}
+</style>
+</head>
+
+<body style="margin:0; padding:0; font-size:0">
+<script>
+function openSubmenu() {
+    var x = document.getElementById("submenu");
+    if (x.className != "no_show")
+       {x.className = "no_show"}
+    else {x.className = "show"} }
+</script>
+<div id="container" style="overflow-x:hidden; overflow-y:hidden; width:100vw">
+<div style="width:160vw">
+<div onclick="openSubmenu()" style="position:fixed; height:50px; width:50px; background-color:black; z-index:5"></div>
+<div id="submenu" class="no_show" style="background-color:yellow; position:relative; height:500px; display:inline-block; vertical-align:top"><a href="http://www.foals.co.uk/news.htmhttp://www.foals.co.uk/news.htm">SubLink</a></div>
+<div style="background-color:red; position:relative; height:500px; display:inline-block; width:100vw; font-size:10vw; vertical-align:top"><a href="http://isaacgatley.com/http://isaacgatley.com/">Link</a></div>
+</div>
+</div>
+</body>
+
+</html>

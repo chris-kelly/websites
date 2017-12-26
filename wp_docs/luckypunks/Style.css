@@ -1,0 +1,39 @@
+﻿@media only screen and (orientation: portrait) {
+	#container2 {background-color:black; font-size:0; margin:0; padding:0}
+	#container2 div h1 {font-size:15vw; color:white; font-family: 'Amatic SC', cursive; line-height:1; margin:0 auto 0 auto;}
+	#container1 {display:none}
+	body {margin:0; padding:0; font-size:0; background-color:black}
+	.close:hover {text-decoration:underline}
+}
+
+@media only screen and (orientation: landscape) {
+	body {margin:0; padding:0; font-size:0; background-color:black; height:100%; width:100%; overflow:hidden; overflow-y:hidden}
+	#container1 {margin:0; padding:0; font-size:0; overflow: hidden;}
+	#container1 h1 {font-size:28vh; color:white; font-family: 'Amatic SC', cursive; line-height:1}
+	#comingsoon {font-size:5vh; font-family: 'Yanone Kaffeesatz'; height:115%; color:white; transition: background-color 2s, box-shadow 2s}
+	#comingsoon:hover {background-color: rgba(0, 0, 0, 0.7); box-shadow:0px 0px 15px rgba(0,0,0,0.5)}
+	input[type=text], textarea {background-color:rgba(0,0,0,0); color:white;}
+	.submit_button:hover {text-decoration:underline}
+	#logos {transition: background-color 2s, box-shadow 2s}
+	#logos:hover {background-color: rgba(0, 0, 0, 0.7);}
+	.no_show {height:0%; opacity:0; background-color:white; transition: opacity 2s ease-in-out, height 2s ease-in-out; -webkit-transition:opacity 2s ease-in-out, height 2s ease-in-out;}
+	.show {height:15%; opacity:1; transition: opacity 2s ease-in-out, height 2s ease-in-out; -webkit-transition:opacity 2s ease-in-out, height 2s ease-in-out;}
+	.no_show2 {height:0%; opacity:0; background-color:white; transition: opacity 2s ease-in-out, height 2s ease-in-out; -webkit-transition:opacity 2s ease-in-out, height 2s ease-in-out;}
+	.show2 {height:60%; opacity:1; transition: opacity 2s ease-in-out, height 2s ease-in-out; -webkit-transition:opacity 2s ease-in-out, height 2s ease-in-out;}	
+	.bar {animation-name: appear; animation-duration: 2s; animation-iteration-count: 1; animation-delay: 2.5s; -webkit-animation-name: appear; -webkit-animation-duration: 2s; -webkit-animation-iteration-count: 1; -webkit-animation-delay: 2.5s;}
+	@keyframes appear {from {width: 0%;} to {width: 20%;}}
+	@-webkit-keyframes appear {from {width: 0%;} to {width: 20%;}}
+	.bar2 {animation-name: appear2; animation-duration: 4.5s; animation-iteration-count: 1; -webkit-animation-name: appear2; -webkit-animation-duration: 4.5s; -webkit-animation-iteration-count: 1;}
+	@keyframes appear2 {0% {opacity: 0;} 99% {opacity: 0;} 100% {opacity: 0.7;}}
+	@-webkit-keyframes appear2 {0% {opacity: 0;} 99% {opacity: 0;} 100% {opacity: 0.7;}}
+	.listen {animation-name: glowing; animation-duration: 7.5s; animation-iteration-count: 1; -webkit-animation-name: glowing; -webkit-animation-duration: 7.5s; -webkit-animation-iteration-count: 1;}
+	.listen:hover {text-decoration:underline}
+	@keyframes glowing {0% {opacity: 0;} 50% {opacity: 0;} 100% {opacity: 1;}}
+	@-webkit-keyframes glowing {0% {opacity: 0;} 50% {opacity: 0;} 100% {opacity: 1;}}
+	.return: hover {text-decoration:underline}
+	#container2 {display:none}
+	
+		
+}
+}
+

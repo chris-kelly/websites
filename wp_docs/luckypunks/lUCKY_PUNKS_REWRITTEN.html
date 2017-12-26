@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Untitled 1</title>
+<link href='https://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+<style>
+	body {margin:0; padding:0; font-size:0; background-color:black; height:100%; width:100%; overflow-x:hidden;}
+	#container1 {margin:0; padding:0; font-size:0; overflow: hidden; position:fixed;}
+	#container1 h1 {font-size:28vh; color:white; font-family: 'Amatic SC', sans-serif; line-height:1}
+	#content {position:relative; display:block; width:60vw; height:300vh; left: 25vw; top:100vh; background-color:rgba(255,255,255,0.7); z-index:100; color:black; font-size:3vw;}
+	.menubutton {position:fixed; display:block; width:3vw; height:3vw; background-color:rgba(0,0,0,0); transition: background-color 2s, box-shadow 2s; box-shadow:0px 0px 0vw rgba(255,255,255,0.7); margin: 2vw 2vw 1vw 1vw; padding:1vw 0.66vw 1vw 0.66vw; z-index:100; border-radius:0vw; cursor: pointer; top:0vw; left: 0vw}
+	.menubutton:hover {background-color: rgba(0, 0, 0, 0.7);}
+	.menubutton div {width:100%; height:8%; position:relative; transform: rotate(0 deg)}
+	#top { background-color: #FFFFFF }
+	#bottom { background-color: #FFFFFF }
+	.rotatesmall {transform: rotate(45deg); background-color:#FFFFFF; transition: transform 0.6s ease-in-out, background-color 0.6s ease-in-out; -webkit-transition: transform 0.6s ease-in-out, background-color 0.6s ease-in-out;}
+	.rotatebig {transform: rotate(-45deg); background-color:#FFFFFF; transition: transform 0.6s ease-in-out, background-color 0.6s ease-in-out; -webkit-transition: transform 0.6s ease-in-out, background-color 0.6s ease-in-out;}
+	.rotateoff {transform: rotate(0 deg); background-color:#FFFFFF; transition: transform 0.6s ease-in-out, background-color 0.6s ease-in-out; -webkit-transition: transform 0.6s ease-in-out, background-color 0.6s ease-in-out;}
+	#submenu {position:fixed; width:12vw; background-color: white; box-shadow:0px 0px 15px rgba(30,30,30,0.7); margin:0vw 1vw 1vw 1vw; left:16vw; padding:0 0 0 5vw; text-align:left; font-family: gothics, sans-serif; border-radius:0.5vw; z-index:100; color:#B0B0B0; opacity:0.85;}
+	.visible {opacity:1; transition: opacity 0.6s ease-in-out}
+	.not_visible {opacity:0; transition: opacity 0.6s ease-in-out}
+
+</style>
+<script type="application/javascript">
+function openSubmenu() {
+		    var v = document.getElementById("submenu");
+			    if (v.className != "no_show")
+			       {v.className = "no_show"}
+			    else {v.className = "show"}
+			var w = document.getElementById("rotate1");
+			    if (w.className != "rotatesmall")
+			       {w.className = "rotatesmall"}
+			    else {w.className = "rotateoff"}
+		    var x = document.getElementById("rotate2");
+			    if (x.className != "rotatebig")
+			       {x.className = "rotatebig"}
+			    else {x.className = "rotateoff"}
+		    var y = document.getElementById("top");
+			    if (y.className != "not_visible")
+			       {y.className = "not_visible"}
+			    else {y.className = "visible"}
+		    var z = document.getElementById("bottom");
+			    if (z.className != "not_visible")
+			       {z.className = "not_visible"}
+			    else {z.className = "visible"}  
+			}
+</script>
+
+</head>
+
+<body>
+<div id="container1" style="margin:auto 0 auto 0; vertical-align:middle">
+	<div id ="MenuBar" style="position:relative; width:10vw; ">
+		test
+	</div>
+	<div id="bigimage" style="display:inline-block">
+		<img alt="Image of the band" src="Images/MainImage3.jpg" width="100%" />
+		<div style="position:absolute; left:3%; top:20%; width:90%">
+			<h1>LUCKY<br>&nbsp;PUNKS&nbsp;&nbsp;&nbsp;
+				<span style="font-size:13vh">coming soon
+				</span>
+			</h1>
+		</div>
+	</div>
+</div>
+<div class="menubutton" onclick="openSubmenu()">
+		<div id="top"></div>
+		<div style="margin:1vw 0 1vw 0;" id="rotate1" class="rotateoff"></div>
+		<div style="top: -1.2vw" id="rotate2" class="rotateoff"></div>
+		<div id="bottom"></div>
+	</div>
+<div id="submenu" class="no_show">
+		<div style="width:10vw; display:inline-block"><a href="art.html" style="text-decoration:none; color:black;">art</a></div><div style="width:37vw; display:inline-block"><a href="set-building.html" style="text-decoration:none; color:black">set building</a></div>
+		<div style="width:10vw; display:inline-block"><a href="hanging-gardens.html" style="text-decoration:none; color:black">architecture</a></div><div style="width:37vw; display:inline-block"><a href="about.html" style="text-decoration:none; color:black">about</a></div><br>
+		<div style="width:10vw; display:inline-block"><a href="illustration.html" style="text-decoration:none; color:black">illustration</a></div><div style="width:37vw; display:inline-block"></div><br>
+		<div style="width:10vw; display:inline-block"><a href="photography.html" style="text-decoration:none; color:black">photography</a></div><div style="width:37vw; display:inline-block"></div><br>
+	</div>
+<div id="content">
+Here we have content
+</div>
+</body>
+
+</html>
