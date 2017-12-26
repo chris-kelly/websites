@@ -1,0 +1,135 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face { font-family: gara; src: url('fonts/gara.woff'); }
+@font-face { font-family: garabd; src: url('fonts/garabd.woff'); }
+@font-face { font-family: calibril; src: url('fonts/calibril.woff'); }
+
+.title {
+    font-family:"edwardian Script ITC";
+    color:white;
+    font-size:44px
+}
+.Title {
+	font-family: "edwardian Script ITC";
+	font-size: 44pt;
+	color: #FFFFFF;
+}
+.whitetext {
+	font-family: 'calibril', sans-serif;
+	font-size: 13pt;
+	color: #FFFFCC;
+	text-decoration:none
+}
+.navtext {
+	font-family: 'garabd', serif;
+	font-size: 15pt;
+	font-weight:normal;
+	color: #290785;
+	text-decoration:none
+}
+.heading {
+	font-family: 'garabd', serif;
+	font-size: 40pt;
+	vertical-align: top;
+	color:#003366;
+	font-weight:bold;
+}
+.text {
+	font-family: 'calibril', sans-serif;
+	font-size: 19px;
+	color: #003366;
+}
+.subheadings {
+	font-family: 'garabd', serif;
+	font-size: 30pt;
+	color: #003366;
+	font-weight: normal;
+	text-align:center;
+	text-decoration:none;
+	
+	
+}
+.bluetext {
+	font-family: 'calibril', sans-serif;
+	font-size: 13pt;
+	color: #003366;
+	text-decoration:none;
+	margin-top: 5px;
+	
+}
+
+.bluetext a:link {
+	font-family: 'calibril', sans-serif;
+	font-size: 13pt;
+	color: #003366;
+	text-decoration:none
+}
+
+
+.bluetext a:hover {
+	font-family: 'calibril', sans-serif;
+	font-size: 13pt;
+	color: #003366;
+	text-decoration:underline
+}
+
+.whitetext a:link {
+	font-family: 'calibril', sans-serif;
+	color: #FFFFCC;
+	text-decoration:none
+}
+
+.whitetext a:hover{
+	font-family: 'calibril', sans-serif;
+	color: #FFFFCC;
+	text-decoration:underline
+}
+.navtext a:link{
+	font-family: 'garabd', serif;
+	font-size: 13pt;
+	font-weight: normal;
+	color: #290785;
+	text-decoration:none
+}
+.navtext a:hover{
+	font-family: 'garabd', serif;
+	font-size: 13pt;
+	font-weight: normal;
+	color: #290785;
+	text-decoration:underline
+}
+.subheadings a:link{
+	font-family: 'garabd', serif;
+	font-size: 20pt;
+	color: #003366;
+	font-weight: bold;
+	text-align:center;
+	text-decoration:none
+}
+.subheadings a:hover{
+	font-family: 'garabd', serif;
+	font-size: 20pt;
+	color: #003366;
+	font-weight: bold;
+	text-align:center;
+	text-decoration:underline
+}
+.formtext {
+	font-family: 'calibril', sans-serif;
+	color: #003366;
+	font-size: 12pt;
+}
+
+ul li {
+	color: rgb(0, 51, 102);
+	font-family: 'calibril', sans-serif;
+	font-size: 18px;
+}
+
+ul {
+	color: rgb(0, 51, 102);
+	font-family: 'calibril', sans-serif;
+	font-size: 18px;
+}
