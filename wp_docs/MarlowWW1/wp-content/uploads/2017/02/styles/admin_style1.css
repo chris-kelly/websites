@@ -1,0 +1,98 @@
+/* admin_style1 Stylesheet 1*/
+
+@import "reset.css";
+
+body {background:rgb(249,249,249)}
+
+p {font-family: Arial, Sans-Serif; color: black; font-size: 10pt; padding-left:2pt; padding-right:2pt; }
+
+em {font-family: arial, sans-serif; font-style:italic}
+
+strong {font-weight:bold }
+em strong {font-style:italic; font-weight:bold}
+strong em {font-weight:bold; font-style:italic}
+
+.f8   {font-size: 8pt}
+.f10 {font-size: 10pt}
+.f12 {font-size: 12pt}
+.f14 {font-size: 14pt}
+.f16 {font-size: 16pt}
+.f18 {font-size: 18pt}
+.f20 {font-size: 20pt}
+.f22 {font-size: 22pt}
+.f24 {font-size: 24pt}
+
+.lh02 {line-height:1.5}
+.lh11 {line-height:1.5}
+.lh13 {line-height:1.5}
+.lh15 {line-height:1.5}
+
+.pad00   {padding: 0px;}
+.pad01   {padding: 1px;}
+.pad02   {padding: 5px;}
+.pad03   {padding: 10px;}
+.pad04   {padding: 20px;}
+.pad05   {padding: 30px;}
+
+.mgn00 {margin:0}
+.mgn01 {margin:1px 0}
+.mgn02 {margin:2px 0}
+.mgn03 {margin:3px 0}
+.mgn05 {margin:5px 0}
+.mgn10 {margin:10px 0}
+
+.bold {font-weight:bold}
+.nodec {text-decoration:none}
+.norm {font-weight:normal}
+
+.bord01 {border:solid black 1px}
+.bord02 {border:solid black 2px}
+.nobord  {border: 0px; }
+
+a {font-family: Arial, Sans-Serif; color: black; font-size:inherit; font-weight:bold; text-decoration:none; padding-left:2pt; padding-right:2pt; }
+a:hover {background:rgb(201,201,201)}
+
+
+.center {text-align:center}
+.left {text-align:left}
+.right {text-align:right}
+.just {text-align:justify}
+.auto {margin:auto}
+
+.top {vertical-align:top}
+.mid {vertical-align:middle}
+.bot {vertical-align:bottom}
+
+.floatleft {float:left; }
+.floatright {float:right; }
+.clearleft {clear:left;}
+.clearright {clear:right;}
+
+.block {display:block}
+
+.toplinks {text-align:center; border: solid 1px rgb(60,60,60); background:white; }
+.toplinks2 {text-align:center; border: solid 1px rgb(60,60,60); background:white; width:190px}
+
+td.links2 {text-align:center; vertical-align:middle; border: solid 1px rgb(60,60,60); background:white; width:200px}
+p.links2 { text-align:center; margin:3px }
+a.links2 {display:block }
+td.linkspace {width:10px}
+
+.itemlist {background:white; text-align:left; border: solid 1px rgb(150,150,150); padding:5px}
+.itemlistg {background:rgb(201,201,201); text-align:left; border: solid 1px rgb(90,90,90); padding:5px}
+.itemform  {text-align:center; vertical-align:top; border: hidden 0px white; padding:0px; margin:0px}
+
+.bgwhite {background:white}
+
+/* light blue*/
+.bg01 {background:rgb(225,234,246)}
+.col01 {color:rgb(225,234,246)}
+
+/* v light grey */
+.bg02 {background:rgb(249,249,249)}
+.col02 {color:rgb(249,249,249)}
+
+.red {color:red}
+.navy {color:navy}
+.blue {color:rgb(48,84,129)}
+.maroon {color:maroon}
