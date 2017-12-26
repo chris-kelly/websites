@@ -1,0 +1,33 @@
+﻿<head>
+<title>Symondsdown House</title>
+<meta content="en-gb" http-equiv="Content-Language">
+<meta content="A stunning Georgian house with surrounding cottages only 10 minutes from Lyme Regis. Book Bed & Breakfast, self-catered cottages, bespoke retreats and special events." name="description">
+<meta name="keywords" content="Axminster, Devon, Lyme Regis, Bed & Breakfast, Holiday Cottages, Bespoke retreats, Special Events,">
+<meta name="Google sitemap" content="/google_sitemap.xml.gz">
+<link href="../images.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<script src="jquery.js"></script>
+<script>
+	$( document ).ready(function() {
+ 	var images = $(".images img");
+ 	images.eq(0).fadeIn("fast");
+ 	var current = 0;
+ 	setInterval(function() {
+    	var next = ((current + 1) % images.length);
+	    images.eq(current).fadeOut("slow");
+	    images.eq(next).fadeIn("slow");
+    	current = next;
+    }, 5000);
+    });
+     </script>
+     
+<body>
+<div class="images" style="left: 0px; top: 0px">
+    <img src="images/cartoon1.png" style="width:390px; height:400px" />
+    <img src="images/cartoon2.png" style="width:390px; height:400px" />
+    <img src="images/cartoon1.png" style="width:390px; height:400px" />
+    <img src="images/cartoon2.png" style="width:390px; height:400px" />
+    </div>
+</body>

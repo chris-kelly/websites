@@ -1,0 +1,107 @@
+﻿@media screen and (min-width:1050px) { /* Target desktops */
+
+.about { width:200px; position:fixed; top:27px; left:10%; font-family:calibril; font-size:16pt; color:white; text-align:left; padding-top:8px; z-index:+2; }
+.about_link { font-family:gothics; font-size:14pt; top:white; text-decoration:none; color:#B0B0B0 }
+
+.gallery { width:200px; position:fixed; top:65px; left:10%; font-family:calibril; font-size:16pt; color:white; text-align:left; padding-top:8px; z-index:+2; }
+.gallery_link { font-family:gothics; font-size:14pt; color:#B0B0B0; text-decoration:none; }
+
+.mailing { width:200px; height:30px; position:fixed; bottom:0px; background-color:#B0B0B0; left:3%; font-family:calibril; font-size:16pt; color:white; text-align:center; padding-top:8px; z-index:+2; }
+.mailing_link { font-family:calibril; font-size:13pt; color:white; text-decoration:none; }
+
+.sig { position:absolute; left:420px; top:980px; width:180px; }
+
+.fixed_banner {width:100%; height:100px; position:fixed; top:0px; z-index:0 }
+.title { width:1000px; height:70px; font-family:baskvill; color:black; margin: 0 10% 0 10%; background:rgba(255,255,255,0.9); z-index:0; padding:20px; text-align:center }
+.title_1 { font-size:60pt }
+.title_2 { font-size:52pt }
+.socialnetworks { position:fixed; left:3%; top:40px; width:30px; height:70px; display:table-column }
+.socialnetpic { width:28; font-size:35px; font-family:Arial; color:#B0B0B0; text-decoration:none; }
+.content { width:1000px; margin:0px 10% 20px 10%; height:1000px; background-color:white; position:relative; top:130px; z-index:-2 }
+.pic1 { position:absolute; left:0px; top:0px; width:400px; height:600px }
+.trendsetter { position:absolute; left:430px; top:0px; width:570px; height:50px; background:rgba(0,0,0,1); font-family:eraslght; font-size:21pt; color:white; text-align:center; padding-top:15 }
+.pic2 { position:absolute; left:430px; top:100px; width:270px; height:600px }
+.pic3 { position:absolute; left:730px; top:100px; width:270px; height:250px }
+.pic4 { position:absolute; left:730px; top:380px; width:270px; height:320px }
+.ethos { position:absolute; left:0px; top:630px; width:400px; height:50px; background:rgba(0,0,0,1); font-family:eraslght; font-size:21pt; color:white; padding-top:20px }
+.summary { position:absolute; left:0px; top:730px; width:540px; height:270px; background-color:white; font-family:calibril; font-size:16pt; padding-top:0px; padding-left:20px; line-height:1.7 }
+.pic5 { position:absolute; left:630px; top:730px; width:370px; height:540px; background-color:gray }
+.pic5caption { position:absolute; left:630px; top:1220px; width:370px; height:40px; background:rgba(255,255,255,0.8); font-family:gothics; font-size:16pt; color:black; text-align:center; padding-top:10px }
+.material1 { position:absolute; left:0px; top:1080px; width:180px; height:190px; background-color:lime }
+.material2 { position:absolute; left:210px; top:1080px; width:180px; height:190px; background-color:orange }
+.material3 { position:absolute; left:420px; top:1080px; width:180px; height:190px; background-color:#3399FF }
+.cartoon { position:absolute; left:0px; top:1300px; width:390px; height:400px }
+.bullets { position:absolute; left:420px; top:1300px; width:540px; height:360px; background-color:#3399FF; background-color:white; font-family:calibril; font-size:16pt; padding:20; line-height:1.7 }
+.emailblack { position:absolute; left:0px; top:1730px; width:980px; height:40px; background:rgba(0,0,0,1); font-family:baskvill; font-size:21pt; color:white; padding-left:20px; padding-top:10px }
+.emailwhite { position:absolute; left:0px; top:1774px; width:960px; height:106px; background-color:#FFFFFF; padding:20; font-family:calibril; font-size:16pt; line-height:1.7 }
+.pic6 { position:absolute; left:0px; top:1960px; width:320px; height:480px; background-color:#3399FF }
+.pic7 { position:absolute; left:340px; top:1960px; width:320px; height:480px; background-color:#3399FF }
+.pic8 { position:absolute; left:680px; top:1960px; width:320px; height:480px; background-color:#3399FF }
+.pic8caption { position:absolute; left:680px; top:2400px; width:320px; height:40px; background:rgba(255,255,255,0.8); padding-top:10px; padding-right:10px; color:black; text-align:center }
+.pic8link { font-family:calibril; font-size:16pt; color:black; text-decoration:none }
+.footer { position:absolute; left:0px; top:2470px; width:1000px; height:50px; background:rgba(255,255,255,1); font-family:gothics; font-size:12pt; color:white; padding-bottom:30px; padding-right:0px }
+.form { text-align:right; font-family:gothics; font-size:24.5pt }
+.formname { height:35px }
+.formbutton { height:35px }
+.gallerybanner { display: none }
+.cartoonmob { display: none }
+.bulletsmob { display: none }
+.picsmob { display: none }
+.gallerybannerlink { display:none }
+
+}
+
+@media screen and (max-width:1050px) { /* Target portrait smartphones and tablets */
+
+.mailing { display: none }
+.mailing_link { display: none }
+.fixed_banner { width:100%; height:130px; position:relative; top:0px; z-index:0; }
+.title { width:100%; height:70px; font-family:baskvill; color:black; margin: 0; background:rgba(255,255,255,0.8); z-index:0; padding-top:20px; text-align:center }
+.title_1 { font-size:70pt }
+.title_2 { font-size:61pt }
+.socialnetworks { position: relative; top:200px; width:100%; text-align:center; }
+.content { }
+.pic1 { position:relative; left:0px; top:30px; width:100%; z-index:-1 }
+.trendsetter { position:relative; top:0px; width:100%; height:70px; background:rgba(0,0,0,1); font-family:eraslght; font-size:35pt; color:white; text-align:center; padding-top:15; z-index:-1 }
+.pic2 { display: none; }
+.pic3 { display: none }
+.pic4 { display: none }
+.ethos { display: none }
+.summary { position:relative; left:3%; top:60px; width:94%; margin-bottom:30px; vertical-align:top; font-size:24.5pt; z-index:-1 }
+.pic5 { display: none }
+.pic5caption { display: none }
+.material1 { display: none }
+.material2 { display: none }
+.material3 { display: none }
+.cartoon { display: none }
+.bullets { display: none }
+.emailblack { display: none }
+.emailwhite { position:relative; left:3%; top:140px; width:94%; background-color:#FFFFFF; font-family:calibril; font-size:24.5pt; }
+.pic6 { display: none }
+.pic7 { display: none }
+.pic8 { display: none }
+.pic8caption { display: none }
+.pic8link { display: none }
+.footer { display: none }
+.form { text-align:right; font-family:calibril; font-size:24.5pt }
+.formname { font-size:30px; width:60%; font-family:calibril; height:70; margin-top:50px }
+.formbutton { font-size:24.5px; height:70; width:10%; font-family:calibril; margin-top:50px }
+.gallerybanner { width:100%; height:70px; background:black; position: relative; top:70px; font-family:eraslght; font-size:30pt; color:white; text-align:center; padding-top:20px }
+.cartoonmob { position:relative; left:0px; top:60px; width:100%; z-index:-1 }
+.bulletsmob { position:relative; left:3%; top:90px; width:94%; margin-bottom:30px; vertical-align:top; font-size:24.5pt; z-index:-1 }
+.picsmob { position:relative; left:0px; top:100px; width:100%; z-index:-1 }
+.gallerybannerlink { color:white; text-decoration:none; }
+.socialnetpic { height:60px; font-size:80px; font-family:Arial; color:#B0B0B0; text-decoration:none; }
+
+
+.about { display: none; }
+.about_link { display: none; }
+
+.gallery { display: none; }
+.gallery_link { display: none; }
+
+.sig { display: none }
+	
+}
+
+}

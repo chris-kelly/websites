@@ -1,0 +1,140 @@
+/*
+Theme Name: DassenVanDassen Theme
+Theme URI: http://www.dassen.christopher-kelly.co.uk
+Author: Christopher Kelly
+Author URI: http://www.christopher-kelly.co.uk	
+Description: My third theme for WordPress.
+Version: 1.0
+Tags: VanDassen
+*/
+
+
+/* @media screen and (min-width:1000px) { */
+.bigdiv { height:2450px }
+.pic1 { position:absolute; left:0px; top:0px; width:400px; height:600px }
+.trendsetter { position:absolute; left:430px; top:0px; width:570px; height:50px; background:rgba(0,0,0,1); font-family:eraslght; font-size:21pt; color:white; text-align:center; padding-top:15 }
+.pic2 { position:absolute; left:430px; top:100px; width:270px; height:600px }
+.pic3 { position:absolute; left:730px; top:100px; width:270px; height:250px }
+.pic4 { position:absolute; left:730px; top:380px; width:270px; height:320px }
+.ethos { position:absolute; left:0px; top:630px; width:400px; height:50px; background:rgba(0,0,0,1); font-family:eraslght; font-size:21pt; color:white; padding-top:20px }
+.summary { position:absolute; left:0px; top:730px; width:540px; height:270px; background-color:white;  padding-top:0px; padding-left:20px; }
+p.summarytext { font-family:calibril; font-size:16pt; line-height:1.7 }
+p.summaryhead { font-family:calibril; font-size:18pt; line-height:1 }
+.sig { position:absolute; left:420px; top:980px; width:180px; }
+.pic5 { position:absolute; left:630px; top:730px; width:370px; height:540px; background-color:gray }
+.pic5caption { position:absolute; left:630px; top:1224px; width:370px; height:40px; background:rgba(255,255,255,0.8); font-family:gothics; font-size:16pt; color:black; text-align:center; padding-top:10px }
+.material1 { position:absolute; left:0px; top:1080px; width:180px; height:190px; }
+.material2 { position:absolute; left:210px; top:1080px; width:180px; height:190px; }
+.material3 { position:absolute; left:420px; top:1080px; width:180px; height:190px; }
+.cartoon { position:absolute; left:0px; top:1300px; width:390px; height:400px }
+.bullets { position:absolute; left:420px; top:1300px; width:540px; height:360px; background-color:white; padding:20; }
+.emailblack { position:absolute; left:0px; top:1730px; width:980px; height:40px; background:rgba(0,0,0,1); font-family:baskvill; font-size:21pt; color:white; padding-left:20px; padding-top:10px }
+.emailwhite { position:absolute; left:0px; top:1774px; width:960px; height:106px; background-color:#FFFFFF; padding:20; font-family:calibril; font-size:16pt; line-height:1.7 }
+.pic6 { position:absolute; left:0px; top:1960px; width:320px; height:480px; }
+.pic7 { position:absolute; left:340px; top:1960px; width:320px; height:480px; }
+.pic8 { position:absolute; left:680px; top:1960px; width:320px; height:480px; }
+.pic8caption { position:absolute; left:680px; top:2400px; width:320px; height:40px; background:rgba(255,255,255,0.8); padding-top:10px; padding-right:10px; color:black; text-align:center }
+.pic8link { font-family:calibril; font-size:16pt; color:black; text-decoration:none }
+a.pic8link:hover { font-family:calibril; font-size:16pt; color:black; text-decoration:underline }
+.footer { position:absolute; left:0; top:2470px; width:1000px; height:50px; background:rgba(255,255,255,1); font-family:gothics; font-size:12pt; color:white; padding-bottom:30px; padding-right:0px; }
+.form { text-align:right; font-family:gothics; font-size:24.5pt }
+.formname { height:35px; padding-left:10px }
+.formbutton { height:35px; margin-left:0px }
+.gallerybanner { display: none }
+.cartoonmob { display: none }
+.bulletsmob { display: none }
+.picsmob { display: none }
+.gallerybannerlink { display:none }
+.socialnetworks { position:fixed; left:2%; top:180px; width:30px; height:27px; display:table-column; }
+.socialnetpic { width:28; font-size:35px; font-family:Arial; color:#B0B0B0; text-decoration:none; }
+nav { text-align: center; text-decoration: none; color:black; z-index:2; padding:0; margin:10 0 0 0; font-family: gothics}
+nav ul { position:relative; vertical-align:top; list-style: none; text-decoration: none; top: 0px; margin:0;}
+nav ul li { display:inline-table; transition: background 0.4s; line-height:2.3; width:180px; vertical-align:top}
+nav ul li:hover { background:#B0B0B0; color:white }
+nav ul ul { opacity:0; height:0px; transition: opacity .4s, height 0s; -webkit-transition: opacity .4s, height 0s; overflow:hidden; vertical-align:text-top  }
+nav ul ul li { display:inline-table; list-style:none; transition: color .6s; -webkit-transition: color .6s; margin-left:0px; padding-left:0px; text-align:left; position:relative; left:-50px; vertical-align:text-top  }
+nav ul ul li a { color:white; text-decoration:none; transition: color .6s; margin-left:10px; padding-left:10px; text-align:left;}
+nav ul ul li a:hover { color:black }
+nav ul li:hover > ul {opacity:1; height:auto}
+
+a.logo_DVD { color:black; text-decoration:none }
+a.logo_DVD:hover { color:black; text-decoration:underline }
+.content { width:1000px; margin:0 auto; background-color:white; position:relative; top:-15px; z-index:1 }
+}
+
+/*
+@media screen and (max-width:1000px) {
+.bigdiv { height:4000px }
+.footerab {display: none }
+.mailing { display: none }
+.mailing_link { display: none }
+.fixed_banner { width:100%; height:130px; position:relative; top:0px; z-index:0; }
+.title { width:100%; height:70px; font-family:baskvill; color:black; margin: 0; background:rgba(255,255,255,0.8); z-index:3; padding-top:0px; text-align:center }
+.title_1 { font-size:70pt }
+.title_2 { font-size:61pt }
+.socialnetworks { position: relative; top:0px; width:100%; text-align:center; }
+.content { height:4200px; position: relative; top: 0px }
+.pic1 { position:relative; left:0px; top:30px; width:100%; z-index:-1 }
+.trendsetter { position:relative; top:0px; width:100%; height:70px; background:rgba(0,0,0,1); font-family:eraslght; font-size:35pt; color:white; text-align:center; padding-top:15; z-index:-1 }
+.pic2 { display:none }
+.pic3 { display: none }
+.pic4 { display: none }
+.ethos { display: none }
+.summary { position:relative; left:3%; top:60px; width:94%; margin-bottom:30px; vertical-align:top; font-size:24.5pt; z-index:-1 }
+.pic5 { display: none }
+.pic5caption { display: none }
+.material1 { display: none }
+.material2 { display: none }
+.material3 { display: none }
+.cartoon { display: none }
+.bullets { display: none }
+.emailblack { display: none }
+.emailwhite { position:relative; left:3%; top:140px; width:94%; background-color:#FFFFFF; font-family:calibril; font-size:50pt; }
+.pic6 { display: none }
+.pic7 { display: none }
+.pic8 { display: none }
+.pic8caption { display: none }
+.pic8link { display: none }
+.footer { display: none }
+.form { text-align:right; font-family:calibril; font-size:24.5pt }
+.formname { font-size:30px; width:60%; font-family:calibril; height:70; margin-top:50px }
+.formbutton { font-size:24.5px; height:70; width:10%; font-family:calibril; margin-top:50px }
+.gallerybanner { width:100%; height:70px; background:black; position: relative; top:70px; font-family:eraslght; font-size:30pt; color:white; text-align:center; padding-top:20px }
+.cartoonmob { position:relative; left:0px; top:60px; width:100%; z-index:-1 }
+.bulletsmob { position:relative; left:3%; top:90px; width:94%; margin-bottom:30px; vertical-align:top; z-index:-1 }
+.picsmob { position:relative; left:0px; top:100px; width:100%; z-index:-1 }
+.gallerybannerlink { color:white; text-decoration:none; }
+.socialnetpic { height:60px; font-size:80px; font-family:Arial; color:#B0B0B0; text-decoration:none; }
+.about { display: none; }
+.about_link { display: none; }
+.gallery { display: none; }
+.gallery_link { display: none; }
+.sig { display: none }
+.line { display: none }
+.footerstuff { display: none }
+p.summarytext { font-family:calibril; font-size:50pt; line-height:1.7 }
+p.summaryhead { font-family:calibril; font-size:18pt; line-height:1 }
+nav { display: none }
+*/
+	
+}
+
+
+ul { font-family: gothics }
+.menubar { text-align:center; background-color:white; top: 6px; padding-top:0px; position:relative; min-height:40px; z-index: 0; margin:0 auto; font-family:gothics; font-size:12pt; opacity:0.95; width:1050px; height:40px; z-index:2 }
+.mailing { width:150px; height:30px; position:fixed; bottom:0px; background-color:#B0B0B0; left:3%; font-family:calibril; font-size:16pt; color:white; text-align:center; padding-top:8px; z-index:+2; }
+.mailing_link { font-family:calibril; font-size:13pt; color:white; text-decoration:none; }
+.fixed_banner {width:100%; height:160px; position:fixed; top:0px; z-index:0; background:rgba(255,255,255,0.9);}
+.title { height:80px; font-family:baskvill; color:black; margin: 15 auto; z-index:0; text-decoration:none }
+.title_1 { font-size:76pt; font-family:baskvill; color:black; text-decoration:none }
+.title_2 { font-size:65pt }
+
+
+.signorm { display:none }
+.nocomments { display:none }
+
+h1 { font-family:eraslght; font-size:25pt; padding: 10 60 10 60; background-color:black; color:white; text-transform: uppercase; margin: 40 auto 35 auto; text-align:center; width: 400px; min-width:30% }
+p { font-family:calibril; font-size:14pt; line-height:1.7; color:black;}
+h2 { font-family:calibril; font-size: 22pt; color: black; font-weight:normal; text-transform:uppercase }
+h3 { font-family:calibril; font-size: 18pt; color: black; font-weight:normal; text-transform:uppercase }
+textarea { font-family:calibri; font-size: 14pt; padding:10 }
