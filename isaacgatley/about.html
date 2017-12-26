@@ -1,0 +1,128 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>me.</title>
+	<link href="style.css" rel="stylesheet" />
+	<script src="Menubar.js"></script>
+
+	<style>	
+	@media only screen and (orientation: portrait) {
+		.red { opacity:1; width: 70vw; height: 50vw; background-image:url('pictures/Animals/SDC12195.jpg'); display:inline-block; text-align:left; color:black; background-size: 100%; margin-bottom:4vw}
+		.blue { opacity:1; width: 70vw; height: 39.2vw; background-image:url('pictures/hanging-gardens/small-5.jpg'); display:inline-block; text-align:left; color:black; background-size: 100%; margin-bottom:4vw}
+		.green { opacity:1; width: 70vw; height: 46.8vw; background-image:url('pictures/Photography/Untitled-2.jpg'); display:inline-block; text-align:left; color:black; background-size: 100%; margin-bottom:4vw}
+		.yellow { opacity:1; width: 70vw; height: 50vw; background-image:url('pictures/set-building/Untitled-1.jpg'); display:inline-block; text-align:left; color:black; background-size: 100%; margin-bottom:4vw}
+		.captionbox { padding-left:1vw; text-align:left; width:100%; height:9.8vw; background: rgba(0,0,0,0.4); box-sizing: border-box; color:white; position:relative; bottom:0vw; font-size:5.5vw}
+		}
+	
+	@media only screen and (orientation: landscape) {
+		.red {opacity:0.5; position:relative; top:0vw; width: 10vw; height: 18.8vw; background-size:cover; background-image:url('pictures/Animals/SDC12195.jpg') ; -webkit-transition: width 2s, opacity 2s; transition: width 2s, opacity 2s; display:inline-block; margin:0.8vw; text-align:left; font: 1.3vw gothics; color:black; }
+		.red:hover { width: 25.4vw; opacity:1;}
+		.blue {opacity:0.5; position:relative; top:0vw; width: 10vw; height: 18.8vw; background-size:cover; background-image:url('pictures/hanging-gardens/small-5.jpg'); -webkit-transition: width 2s, opacity 2s; transition: width 2s, opacity 2s; display:inline-block; margin:0.8vw; text-align:left; font: 1.3vw gothics; color:white; }
+		.blue:hover { width: 30vw; opacity:1;}
+		.green {opacity:0.5; position:relative; top:0vw; width: 10vw; height: 18.8vw; background-size:cover; background-image:url('pictures/Photography/Untitled-2.jpg'); -webkit-transition: width 2s, opacity 2s; transition: width 2s, opacity 2s; display:inline-block; margin:0.8vw; text-align:left; font: 1.3vw gothics; color:white;}
+		.green:hover { width: 28vw; opacity:1;}
+		.yellow {opacity:0.5; position:relative; top:0vw; width: 10vw; height: 18.8vw; background-size:cover; background-image:url('pictures/set-building/Untitled-1.jpg'); -webkit-transition: width 2s, opacity 2s; transition: width 2s, opacity 2s; display:inline-block; margin:0.8vw; text-align:left; font: 1.3vw gothics; color:black; }
+		.yellow:hover { width: 15vw; opacity:1;}
+		.captionbox { padding-left:1vw; padding-top:0.3vw; text-align:left; width:100%; height:1.9vw; background: rgba(0,0,0,0.4); box-sizing: border-box; color:white; position:relative; top:16.9vw; font-size:1vw; font-family:gothics;}
+	}
+</style>
+
+</head>
+
+<body style="padding:0; margin:0; background:#F2F2F2">
+
+<!-- *** Mobile menu -->
+<div id="menuwrapper_mob">
+	<div class="menubutton" onclick="openSubmenu()">
+		<div id="top"></div>
+		<div style="margin:3vw 0 3vw 0;" id="rotate1" class="rotateoff"></div>
+		<div style="top: -3.7vw" id="rotate2" class="rotateoff"></div>
+		<div id="bottom"></div>
+	</div>
+	<div id="submenu" class="no_show">
+		<div style="width:37vw; display:inline-block"><a href="art.html" style="text-decoration:none; color:black;">art</a></div><div style="width:37vw; display:inline-block"><a href="set-building.html" style="text-decoration:none; color:black">set building</a></div>
+		<div style="width:37vw; display:inline-block"><a href="hanging-gardens.html" style="text-decoration:none; color:black">architecture</a></div><div style="width:37vw; display:inline-block"><a href="about.html" style="text-decoration:none; color:black">about</a></div></br>
+		<div style="width:37vw; display:inline-block"><a href="illustration.html" style="text-decoration:none; color:black">illustration</a></div><div style="width:37vw; display:inline-block"></div></br>
+		<div style="width:37vw; display:inline-block"><a href="photography.html" style="text-decoration:none; color:black">photography</a></div><div style="width:37vw; display:inline-block"></div></br>
+	</div>
+</div>	
+
+<!-- *** Desktop menu -->
+<div id="menuwrapper_desk">
+	<nav id="menubar" class="menubar">
+		<ul>
+		<a href="index.html" style="text-decoration:none">
+			<li id="isaacgatley">isaac gatley</li>
+		</a>
+			<li><span id="art" onclick="javascript:location.href='art.html'">art</span><ul>
+				<li><a href="wildlife.html">wildlife</a></li>
+				<li><a href="portrait.html">portraits</a></li>
+				<li><a href="architecture.html">architecture</a></li>
+				<li><a href="still-life.html">still life</a></li>
+			</ul>
+			</li>
+			<li>architecture<ul>
+				<li><a href="hanging-gardens.html">hanging gardens</a>
+			</ul>
+			</li>
+			<a href="illustration.html" style="text-decoration:none">
+			<li>illustration</li>
+			</a>
+			<a href="photography.html" style="text-decoration:none">
+			<li>photography</li>
+			</a>
+			<a href="about.html" style="text-decoration:none">
+			<li>set building</li>
+			</a>
+			<li>about<ul>
+				<li><a href="contact.html">contact</a></li>
+				<li><a href="info.html">info</a></li>
+				</ul>
+	</ul>
+	</nav>
+</div>
+
+<!-- *** Main content -->
+<div style="background:white; width:84%; text-align:center; padding:0vw 1.5vw 1.5vw 1.5vw; margin:0 auto; position:relative; top:0px; -webkit-box-sizing: border-box;">
+<div id="contentwrapper">
+	<div id="space"><a href="index.html">isaac gatley</a></div>
+	<div style="width:90%; position:relative; margin:0 auto">
+	<span id="text" style="line-height:1">
+		<br>
+		<br />
+		i did my arts foundation course at central st. martins.<br><br>
+		chose advertising. enjoyed drawing.<br><br>
+		i then went on to graduate in architectecture at the university	of portsmouth.<br><br>
+		since then I have enjoyed working on town planning and urban development.<br><br>
+		after that, all I can say with confidence is I shall enjoy not working in a bank<br><br><br>
+		email: <a href="mailto:isaac@isaacgatley.com" class="links" target="_blank">isaac@isaacgatley.com</a><br><br>
+		<img style="height:auto" alt="" src="pictures/About/profile_pic.JPG" /></br></br></br>
+		<br>
+		<span style="color:black">timeline</span><br><br>
+		assistant urban designer & master planner<br>west waddy adp <br />
+		(2014 - 2016)<br><br>
+		ba (hons) arch riba part I<br>architecture, university of portsmouth<br>(2011 - 2014)<br><br>
+		graphics and photography<br />art foundation, central st. martins college, ual<br />
+		(2010 - 2011)<br><br>
+		wildlife project <br />
+		(2009 - 2010)<br><br>
+		portraits project <br />
+		(2008 - 2009)<br><br>
+		still life project <br />
+		(2006 - 2008)<br><br><br>
+		<img style="height:auto" alt="" src="pictures/about/calc_pic.jpg"/></span></br></br></br>
+
+		</div>
+</div>
+</div>
+
+
+</body>
+
+</html>

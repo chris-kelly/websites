@@ -1,0 +1,60 @@
+﻿@font-face { font-family: gothics; src: url('fonts/GOTHIC.woff'); }
+
+	@media only screen and (orientation: landscape) {
+		#menuwrapper_mob {display:none}
+		#menuwrapper_desk {display:inline-block; position:relative; font-family:gothics}
+		.menubar { background-color:transparent; top: 0; padding-top:0; position:fixed; min-height:10vw; z-index: 0; margin:0 auto; font-family:gothics; font-size:4vw; opacity:0.95; width:100%; height:10vw; z-index:2 }
+		nav { text-align: center; text-decoration: none; color:black; z-index:2; padding:0 auto; margin:0 auto; font-family: gothics; }
+		nav ul { list-style: none; position: relative; display: inline-table; text-decoration: none; top: 0px; margin:0 auto; width:84%; background:white; box-shadow: 0 0 1vw rgba(0,0,0,0.3); padding-left:1vw; padding-right:1vw; }
+		nav ul li { overflow-y:hidden; float: left; text-decoration: none; background-color:white; margin: 0; width:10.3vw; height:2vw; text-align:center; color:black; padding-top:2vw; padding-bottom:1vw; font-size:1vw; transition: background .7s ease-in-out; -moz-transition: background .7s ease-in-out; -webkit-transition: background .7s ease-in-out }
+		nav ul li a { text-decoration: none; color:black }
+		nav ul li a:hover { text-decoration: none; }
+		nav ul li:hover { background-color: #B0B0B0; color:white; overflow-y:visible; }
+		nav ul li:hover > ul { opacity:1; text-decoration: none; box-shadow: none; }
+		nav ul ul { overflow-x:hidden; opacity:0; background: #B0B0B0; border-radius: 0px; padding: 0; position: relative; top: 0px; left:0px; text-decoration: none; margin:0 0 0 0; list-style: none; width:10.3vw; padding-top:1vw; transition: opacity .7s ease-in-out; -moz-transition: opacity .7s ease-in-out; -webkit-transition: opacity .7s ease-in-out; margin-top:1vw; box-shadow:none }
+		nav ul ul li { float:center; text-align:center; position:relative; padding: 0; color:white; width:10.15vw; background:#B0B0B0; margin:0; font-family:gothics}
+		nav ul ul li a { color:white; text-decoration: none; font-family:gothics; transition: color .7s ease-in-out; -moz-transition: color .7s ease-in-out; -webkit-transition: color .7s ease-in-out; box-shadow: none }
+		nav ul ul li:hover { color:black;}
+		nav ul ul li a:hover { color:black; }
+		#contentwrapper {padding:0 auto; position:relative; top: 5vw; height:auto}
+		#contentwrapper img {margin:2px}
+		.fade { opacity: 0.5; transition: opacity .4s ease-in-out; -moz-transition: opacity .4s ease-in-out; -webkit-transition: opacity .4s ease-in-out}
+		.fade:hover { opacity: 1 }
+		.example-image-link { opacity:1; height:300px; width:auto; }
+		#space {font-size:0; height:1vw}
+		#isaacgatley {font-size:2vw; padding-top:1.5vw; padding-bottom:1.5vw; padding-left:1.2vw; padding-right:1.2vw; left:-2vw; margin-left:0px; width:15vw}
+		.links { text-decoration:none; color:black; opacity:1; transition: opacity 0.7s; }
+		.links:hover { opacity:0.55 }
+		#text {font-family:gothics; line-height:3; font-size:1vw; color:#999999;}
+		#art{transition: color .7s ease-in-out; -moz-transition: color .7s ease-in-out; -webkit-transition: color .7s ease-in-out; cursor:pointer}
+		#art:hover {color:black; transition: color .7s ease-in-out; -moz-transition: color .7s ease-in-out; -webkit-transition: color .7s ease-in-out;}
+	}
+
+
+	
+	@media only screen and (orientation: portrait) {
+		#menuwrapper_mob {display:inline-block; position:fixed; z-index:100; font-family:gothics}
+		#menuwrapper_desk {display:none}
+		.menubutton {position:fixed; display:block; width:10vw; height:9vw; background-color: white; opacity:0.85; box-shadow:0px 0px 1vw rgba(30,30,30,0.7); margin:0.1vw 2vw 1vw 1vw; padding:3vw 2vw 3vw 2vw; z-index:100; border-radius:0.5vw; cursor: pointer;}
+		.menubutton div {width:100%; height:8%; position:relative; border-radius:1vw; transform: rotate(0 deg)}
+		#top { background-color: #B0B0B0 }
+		#bottom { background-color: #B0B0B0 }
+		.rotatesmall {transform: rotate(45deg); background-color:black; transition: transform 0.6s ease-in-out, background-color 0.6s ease-in-out; -webkit-transition: transform 0.6s ease-in-out, background-color 0.6s ease-in-out;}
+		.rotatebig {transform: rotate(-45deg); background-color:black; transition: transform 0.6s ease-in-out, background-color 0.6s ease-in-out; -webkit-transition: transform 0.6s ease-in-out, background-color 0.6s ease-in-out;}
+		.rotateoff {transform: rotate(0 deg); background-color:#B0B0B0; transition: transform 0.6s ease-in-out, background-color 0.6s ease-in-out; -webkit-transition: transform 0.6s ease-in-out, background-color 0.6s ease-in-out;}
+		#submenu {position:fixed; width:77vw; background-color: white; box-shadow:0px 0px 15px rgba(30,30,30,0.7); margin:0vw 1vw 1vw 1vw; left:16vw; padding:0 0 0 5vw; text-align:left; font-family: gothics, sans-serif; border-radius:0.5vw; z-index:100; color:#B0B0B0; opacity:0.85;}
+		.show {height:65vw; opacity:0.95; transition: opacity 1.5s ease-in-out, height 0.6s ease-in-out; -webkit-transition:opacity 1.5s ease-in-out, height 0.6s ease-in-out; line-height:16vw; font-size:5vw; color:black;}	
+		.no_show {height:0vw; opacity:0; transition: opacity 1.5s ease-in-out, height 0.6s ease-in-out; -webkit-transition:opacity 1.5s ease-in-out, height 0.6s ease-in-out; line-height:0vw; font-size:0}
+		.visible {opacity:1; transition: opacity 0.6s ease-in-out}
+		.not_visible {opacity:0; transition: opacity 0.6s ease-in-out}
+		#contentwrapper img {max-width:90%; margin-bottom:4vw; height:50vw}
+		.fade { opacity: 1; transition: opacity .4s ease-in-out; -moz-transition: opacity .4s ease-in-out; -webkit-transition: opacity .4s ease-in-out}
+		.fade:hover { opacity: 1 }
+		.example-image-link { opacity:1; height:auto; margin: 2vw; width:90% }
+		#contentwrapper {padding:0 auto; position:relative; top: 5vw; height:auto}
+		#space {text-align:right; margin-bottom:4vw; margin-right:8vw; margin-top:2vw;}
+		#space a {font-family:gothics; font-size: 7vw; color:rgb(176, 176, 176); text-decoration:none}
+		.links { text-decoration:none; color:black; opacity:1; transition: opacity 0.7s; }
+		.links:hover { opacity:0.55 }
+		#text {font-family:gothics; line-height:3; font-size:4vw; color:#999999;}
+	}
